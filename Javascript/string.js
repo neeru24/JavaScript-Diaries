@@ -11,8 +11,8 @@ const gameName = new String('neeru-com')
 // console.log(gameName.__proto__);
 
 
-// console.log(gameName.length);
-// console.log(gameName.toUpperCase());
+console.log(gameName.length);
+console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
@@ -30,6 +30,6 @@ const url = "https://neeru.com/"
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('neeru'))
 
 console.log(gameName.split('-'));
