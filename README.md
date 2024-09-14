@@ -17,4 +17,4 @@ Contributions are what make the open-source community such an amazing place to l
 Don’t forget to star the repo ⭐ if you like it!
 
 ## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the <a href = "https://github.com/neeru24/JavaScript/blob/main/LICENSE">LICENSE</a> file for details.
