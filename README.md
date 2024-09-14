@@ -3,7 +3,7 @@
 Welcome to the **Daily JavaScript Topics** repo! Here, you'll find my daily JavaScript explorations - code and notes.
 
 ## 📚 Learning Resources
-I’m currently following the **Chai Aur Code** YouTube channel for JavaScript tutorials and insights by **Hitesh Choudhary** sir. Feel free to check it out for additional perspectives and examples!
+I’m currently following the **Chai Aur Code** YouTube channel for JavaScript tutorials and insights by <a href="https://github.com/hiteshchoudhary">Hitesh Sir</a>. Feel free to check it out for additional perspectives and examples!
 
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Here’s how you can contribute:
