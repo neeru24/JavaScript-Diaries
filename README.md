@@ -8,7 +8,7 @@ I’m currently following the <a href="https://www.youtube.com/playlist?list=PLu
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Here’s how you can contribute:
 
-#### 🍴 Fork the project by clicking the "Fork" button at the top right of this page.
+#### 🍴 Fork the repo by clicking the "Fork" button at the top right of this page.
 #### 🛠️ Create a branch.
 #### 💡 Commit your changes.
 #### 📤 Push to the branch.
