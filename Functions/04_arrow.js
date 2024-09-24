@@ -31,7 +31,7 @@ const newFun = function () {
 }
 
 const myFunc =  () => {
-    let username = "hitesh"
+    let username = "neeru"
     console.log(this);
 }
 
