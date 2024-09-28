@@ -6,7 +6,7 @@ Welcome to the **Daily JavaScript Topics** repo! Here, you'll find my daily Java
 I’m currently following the <a href="https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37">Chai Aur Code</a> YouTube channel for JavaScript tutorials and insights by <a href="https://github.com/hiteshchoudhary">Hitesh Sir</a>. Feel free to check it out for additional perspectives and insights!
 
 ## 🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Here’s how you can contribute:
+Contributions are what make the **open-source** community such an amazing place to learn, inspire, and create. Here’s how you can contribute:
 
 #### 🍴 Fork the repo by clicking the "Fork" button at the top right of this page.
 #### 🛠️ Create a branch.
