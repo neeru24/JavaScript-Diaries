@@ -1,6 +1,12 @@
-# 1. Theme Switcher
-![themeswitcher](image.png)
-![themeswitcher](image-1.png)
+# Theme Switcher
 
-# 2. Digital Clock
-![Digital](digitalClock.png)
+![image](./Images/themeSwitch.png)
+![image](./Images/themeSwitch2.png)
+
+# Digital Clock 
+![image](./Images/digitalClock.png)
+
+### More Projects.............. 
+
+
+
