@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Background Color Switcher - Neeru </title>
+    <style>
+      html {
+        margin: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif; 
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        height: 100vh; 
+      }
+
+      .canvas {
+        text-align: center;
+      }
+
+      h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+      }
+
+      .button {
+        width: 100px;
+        height: 100px;
+        border: solid black 1px;
+        display: inline-block;
+        margin: 10px; /* Added margin for spacing between buttons */
+      }
+
+      #pink {
+        background: rgb(234, 179, 179);
+      }
+
+      #white {
+        background: white;
+      }
+
+      #skyblue {
+        background: rgb(140, 185, 236);
+      }
+
+      #yellow {
+        background: yellow;
+      }
+
+      #txt,h2{
+        font-family: cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="canvas">
+      <h1>Color Scheme Switcher 🎨</h1>
+      <div>
+        <span class="button" id="pink"></span>
+        <span class="button" id="white"></span>
+        <span class="button" id="skyblue"></span>
+        <span class="button" id="yellow"></span>
+      </div>
+      <h2>
+        Try clicking on one of the colors above
+        <span id = "txt">to change the background color of this page!</span>
+      </h2>
+    </div>
+
+    <script>
+      const buttons = document.querySelectorAll('.button');
+      const body = document.querySelector("body");
+
+      buttons.forEach(function(button) {
+        button.addEventListener('click', function(e) {
+          body.style.backgroundColor = e.target.id; // Changed to set background color directly
+        });
+      });
+    </script>
+  </body>
+</html>
