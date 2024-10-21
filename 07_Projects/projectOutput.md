@@ -6,6 +6,9 @@
 # Digital Clock 
 ![image](./Images/digitalClock.png)
 
+# BMI Calculator 
+![image](./Images/bmi.png)
+
 ### More Projects.............. 
 
 
