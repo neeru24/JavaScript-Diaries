@@ -19,8 +19,12 @@
 ![image](./Images/timer1.png)
 ![image](./Images/timer2.png)
 
+# Random Quote Generator
 
-**Contributed by [Sameer Shrinath](https://github.com/Sameershrinath)**
+![image](./Images/quote1.png)
+![image](./Images/quote2.png)
+
+
 
 
 ### More Projects.............. 
