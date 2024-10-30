@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Unlimited Colors Project - Neeru</title>
+    <style>
+      body {
+        background-color: #212121;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+      button {
+        padding: 12px 24px;
+        background-color: #4caf50;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s;
+      }
+
+      button#stop {
+        background-color: #f44336;
+      }
+
+      button:hover {
+        background-color: #3e8e41;
+      }
+
+      button#stop:hover {
+        background-color: #d32f2f;
+      }
+
+    </style>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+    <h1>Unlimited Colors Project</h1>
+    <h2>Click 'Start' to generate random background colors every second!</h2>
+
+    <div class="button-container">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+    </div>
+
+
+    <script>
+      const randomColor = function () {
+        const hex = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+          color += hex[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      };
+
+      let intervalId;
+      const startChangingColor = function () {
+        if (!intervalId) {
+          intervalId = setInterval(changeBgColor, 1000);
+        }
+
+        function changeBgColor() {
+          document.body.style.backgroundColor = randomColor();
+        }
+      };
+
+      const stopChangingColor = function () {
+        clearInterval(intervalId);
+        intervalId = null;
+      };
+
+      document.querySelector('#start').addEventListener('click', startChangingColor);
+      document.querySelector('#stop').addEventListener('click', stopChangingColor);
+    </script>
+  </body>
+</html>
